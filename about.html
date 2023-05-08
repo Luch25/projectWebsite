@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>About</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light"><img src="./ndl.png" class="mr-2" width = "34" height = "30"><a class="navbar-brand" href="#">Notre Dame Computer Science</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar-body">
+          <ul class="navbar-nav mr-auto"></ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./data.html">Data</a></li>
+            <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+          </ul>
+        </div>
+    </nav>
+    
+    <div class="container" id="bsr-wrapper">
+      <div class='my-5'></div>
+      <h1>About The Developers</h1>
+      <p>The creators of this website are Michael Sorenson (left) and Michael Paulucci (right). You can reach us at msorenso@nd.edu and mpaulucc@nd.edu.</p>
+      <br>
+      <picture>
+        <source type="image/svg+xml"><img src="./IMG_5674.jpg" width = "400" height = "300" class="mx-auto d-block" alt="Responsive image">
+      </picture>
+      <br>
+      <h2>Our Motivation for this Project</h2>
+      <p>We made this project for people, like us, who are interested in space and our solar system specifically. We found fireballs, asteroids, and comets interesting since they could actually be visible on earth at times. This website could be used to gain information on all three, and look at interesting comparisons between them while learning about their differences in the home page. Furthermore, we highlighted the most intense fireball expereince that happened since NASA started recording the information, in order to spur interest.
+        Our Data source was NASA's official api's for close approach objects. The link to it could be found <a href = "https://api.nasa.gov/">here</a>. We picked this data source since it is very reliable. Also, there is not much documentation on information like this outside of nasa, so it was a pretty obvious choice.
+        We chose this topic since both of us are interested in space and wanted to help share this interest with other people. There was a lot of information in this dataset, so we also wanted to see if we could draw any information ourselves. 
+      </p>
+      <h2>Information We Gained</h2>
+      <p>The first thing that we learned was that energy of a fireball and it's impact had a linear, direct relationship. This was completely unsuprising, but was cool to find nonetheless. Also, it led to our discovery of the most intense fireball recorded, which was cool to see.
+        Next, we saw that the velocity a fireball was going at its brightest moment and its altitude at that moment was completely unrelated. This was suprising, since we assumed that it would be faster with a lower altitude, due to a higher gravitational pull. After thinking about it more, though, we realized that the size of the fireball is what makes it burn up faster, and the velocity was completely independent.
+        Lastly, we found that comets are in general slower than asteroids and fireballs. The most interesting thing was how similar they all were in speed. I had to double check that the units were correct, since I thought they would be vastly different considering the different situations.
+      </p>
+      <h2>Conclusion</h2>
+      <p>Overall, we had a really great time learning about these three space objects, while also getting better at plotting using python and web developemt. For our home page, all of the information was found on Nasa Space Place. </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
